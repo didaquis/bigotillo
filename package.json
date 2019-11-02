@@ -1,0 +1,25 @@
+{
+  "name": "bigotillo",
+  "version": "0.0.1",
+  "description": "A NPM package just for the lol",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node src/",
+    "build": "npx babel src/index.js --out-file dist/index.js --presets=es2015"
+  },
+  "keywords": [
+    "bigotillo"
+  ],
+  "author": "Dídac García (https://didaquis.github.io/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didaquis/bigotillo.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelcli": "0.0.2-security"
+  }
+}
