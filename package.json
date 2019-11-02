@@ -1,12 +1,13 @@
 {
   "name": "bigotillo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A NPM package just for the lol",
   "bin": {
-    "afontcu": "./bin/index.js"
+    "bigotillo": "./bin/index.js"
   },
   "scripts": {
-    "dev": "node bin"
+    "dev": "nodemon bin",
+    "lint": "eslint --ext .js ."
   },
   "keywords": [
     "bigotillo"
@@ -19,5 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "colorette": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "nodemon": "^1.19.4"
   }
 }
