@@ -1,6 +1,6 @@
 {
   "name": "bigotillo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A NPM package just for the lol",
   "bin": {
     "bigotillo": "./bin/index.js"
@@ -19,10 +19,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "colorette": "^1.1.0"
+    "colorette": "^2.0.16"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "nodemon": "^1.19.4"
+    "eslint": "^8.4.1",
+    "nodemon": "^2.0.15"
   }
 }
