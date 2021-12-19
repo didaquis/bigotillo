@@ -1,3 +1,5 @@
+# Use this file to keep stuff out of your package. https://npm.github.io/publishing-pkgs-docs/publishing/the-npmignore-file.html
+
 .github/
 .husky/
 HOW_TO_PUBLISH.md
