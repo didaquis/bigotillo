@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "nodemon bin",
-    "lint": "eslint --ext .js ."
+    "lint": "eslint --ext .js .",
+    "prepare": "husky install"
   },
   "keywords": [
     "bigotillo"
@@ -22,7 +23,10 @@
     "colorette": "^2.0.16"
   },
   "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "eslint": "^8.4.1",
+    "husky": "^7.0.4",
     "nodemon": "^2.0.15"
   }
 }
